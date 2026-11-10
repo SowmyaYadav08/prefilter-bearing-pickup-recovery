@@ -12,6 +12,12 @@ This small Python prototype explores how a robotic assembly process might respon
 - `recovery.py` — synthetic signal definitions, four example scenarios, and rule-based decision logic.
 - `test_recovery.py` — six unit tests covering the four example scenarios, an incorrect tool, and missing operator approval.
 
+## Application Interface
+
+The screenshot below shows the technician-facing interface for a simulated failed bearing pickup. The application displays the recovery decision, an explanation of the fault, an illustrative event history, and simulated sensor conditions.
+
+![Prefilter Bearing Pickup - Technician Interface](technician_interface.png)
+
 ## How to run
 
 Requires Python 3 with Tkinter available. No third-party Python packages are used.
